@@ -200,6 +200,7 @@ dependencies = [
 name = "ghook"
 version = "0.1.0"
 dependencies = [
+ "hmac-sha256",
  "ntex",
  "serde",
  "serde_json",
@@ -213,6 +214,12 @@ checksum = "ee512640fe35acbfb4bb779db6f0d80704c2cacfa2e39b601ef3e3f47d1ae4c7"
 dependencies = [
  "libc",
 ]
+
+[[package]]
+name = "hmac-sha256"
+version = "1.1.6"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "fc736091aacb31ddaa4cd5f6988b3c21e99913ac846b41f32538c5fae5d71bfe"
 
 [[package]]
 name = "http"
